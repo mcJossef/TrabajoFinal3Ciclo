@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.bg-personalized {
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC); 
+    background: linear-gradient(to right, #514A9D, #24C6DC); 
+}
+.bg-login{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (1px);
+}
